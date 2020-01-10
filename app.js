@@ -36,7 +36,7 @@ function results() {
     if (computerChosen === userChosen) {
         return result = 'Tie!'
     } else if ( computerChosen === 'rock' && userChosen === 'paper') {
-        return result = 'You Lost!'
+        return result = 'You Win!'
     } else if ( computerChosen === 'rock' && userChosen === 'scissors') {
         return result = 'You Win!'  
     } else if ( computerChosen === 'paper' && userChosen === 'rock') {
